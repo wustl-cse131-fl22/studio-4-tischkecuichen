@@ -10,6 +10,7 @@ import support.cse131.DialogBoxes;
  * @author Dennis Cosgrove (http://www.cse.wustl.edu/~cosgroved/)
  */
 public class NorwayMotherOfAllFlags {
+	
 	private static void mother() {
 		StdDraw.clear();
 		StdDraw.setPenColor(255, 0, 0);
@@ -29,33 +30,47 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(18.3, 8, 3.7, 8);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(3.7, 8, 3.7, 8);
 	}
 
 	public static void indonesia() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 12, 11, 4);
 	}
 
 	public static void netherlands() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 13.5, 11, 2.75);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 2.5, 11, 2.75);
 	}
 
 	public static void poland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 4, 11, 4);
 	}
 
 	public static void thailand() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 1.25, 11, 1.25);
+		StdDraw.filledRectangle(11, 14.75, 11, 1.25);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 8, 11, 3);
 	}
 
 	public static void finland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 8, 11, 2);
+		StdDraw.filledRectangle(8, 8, 2, 8);
 	}
 
 	public static void main(String[] args) {
